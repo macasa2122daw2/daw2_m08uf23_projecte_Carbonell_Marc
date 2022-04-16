@@ -50,7 +50,13 @@
 	Attribute::setAttribute($nova_entrada, 'title', $titol);
 	Attribute::setAttribute($nova_entrada, 'description', $descripcio);
 	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
-	if($ldap->add($dn, $nova_entrada)) echo "Usuari creat";	
+	try{
+		$ldap->add($dn, $nova_entrada);
+		echo "Usuari creat";
+	}catch(Exception $error){
+		echo "<b>Aquesta entrada no existeix</b>"
+	}
+	
 ?>
 <html>
 	<head>

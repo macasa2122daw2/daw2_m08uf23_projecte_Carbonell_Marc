@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
     <name>projecteM08</name>
-    <summary>Projecte ZendServer Segona versio</summary>
+    <summary>Projecte ZendServer Tercera versio</summary>
     <version>
-        <release>1.0.1</release>
+        <release>1.0.3</release>
     </version>
     </package>

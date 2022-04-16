@@ -6,8 +6,8 @@
 	ini_set('display_errors', 0);
 	#
 	# Entrada a esborrar: 
-	$uid = $_POST['uid'];
-	$unorg = $_POST['unorg'];
+	$uid = $_GET['uid'];
+	$unorg = $_GET['unorg'];
 	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
 	#
 	#Opcions de la connexió al servidor i base de dades LDAP
@@ -39,7 +39,7 @@
 	</head>
 	<body>
 		<h2>Esborrar Usuari</h2>
-		<form action="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php" method="POST">
+		<form action="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php" method="GET">
 			UID: <input type="text" name="uid"><br>
 			Unitat Organitzativa: <input type="text" name="unorg"><br>
 			<input type="submit" value="Envia" />

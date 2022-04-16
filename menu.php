@@ -9,7 +9,7 @@
 		<h3> <b>Opcions</b> </h3>
 		<a href="http://zend-macasa.fjeclot.net/projecteM08/buscarUsuari.php">Buscar Usuari</a>
 		<a href="http://zend-macasa.fjeclot.net/projecteM08/afegirUsuari.php">Afegir Usuari</a>
-		<a href="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php">Modificar Usuari</a>
+		<a href="http://zend-macasa.fjeclot.net/projecteM08/modificarUsuari.php">Modificar Usuari</a>
 		<a href="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php">Esborrar Usuari</a>
 
 	</body>
