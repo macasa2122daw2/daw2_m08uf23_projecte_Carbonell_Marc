@@ -54,7 +54,7 @@
 		$ldap->add($dn, $nova_entrada);
 		echo "Usuari creat";
 	}catch(Exception $error){
-		echo "<b>Aquesta entrada no existeix</b>"
+		echo "<b>Aquesta entrada no existeix</b>";
 	}
 	
 ?>
