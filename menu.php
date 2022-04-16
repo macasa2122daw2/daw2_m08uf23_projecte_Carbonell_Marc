@@ -12,6 +12,5 @@
 		<a href="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php">Modificar Usuari</a>
 		<a href="http://zend-macasa.fjeclot.net/projecteM08/esborrarUsuari.php">Esborrar Usuari</a>
 
-		<a href="http://zend-macasa.fjeclot.net/projecteM08/index.php">Torna a la pàgina inicial</a>
 	</body>
 </html>

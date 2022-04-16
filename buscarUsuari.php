@@ -35,6 +35,7 @@
 		<input type="submit"/>
 		<input type="reset"/>
 		</form>
+		<a href="http://zend-macasa.fjeclot.net/projecteM08/menu.php">Torna a la pàgina inicial</a>
 	</body>
 </html>
-?>
+
